@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+header .top-photo{
+    height: 1080px;
+    /* width: 1920px; */
+    background-image: url(../img/new-index-banner.png);
+    position: relative;
+}
+header .lunbo{  
+    width: 85px;
+    height: 10px;
+    position: absolute;
+    bottom: 75px;
+    left: 917px;
+}
+header .lunbo-lv{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #0C8F66;
+    transform: scale(1.05,1.05);
+    float: left;
+    cursor:pointer;
+}
+header .lunbo-bai{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #FFF;
+    float: left;
+    margin-left: 15px;
+    cursor:pointer;
+}
+header .lunbo-bai:hover{
+    background-color: #14916a;
+}
+header .top-left{
+    width: 300px;
+    height: 1080px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 120px;
+}
+header .top-logo{
+    width: 300px;
+    height: 105px;
+    background-color: #FFF;
+    /* position: absolute;
+    top: 120px; */
+    border-bottom: 5px solid #0C8F66;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+header .top-logo img{
+    height: 55px;
+    width: 192px;
+}
+header .top-logo .three{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background: linear-gradient(45deg,transparent,transparent 50%,#14916a 50%,#14916a 100%);
+    margin: 0px  0px 0px 285px;
+}
+header ul{      
+    margin-top: 60px;
+
+}
+header ul li  {
+    padding: 18px 0px;
+    color: #FFF;
+    text-align: left;
+    margin: 0 0 0 0;
+    font-size: 18px;
+    /* border: #0C8F66 1px solid;  */
+    
+}
+header ul li a{
+    color: #FFF;
+    text-decoration: none;
+}
+/* header ul li a .top-li-word1{
+    color: #14916a;
+    background-color: #fff;
+    padding: 11px 32px 8px 32px;
+    margin: 0;
+    margin-left: 72px;
+    border-top-left-radius:10px;
+    border-bottom-right-radius:10px;
+} */
+
+header ul li a .top-li-word{
+    margin: 0;
+    margin-left: 72px;
+    padding: 11px 32px 8px 32px;
+    border-top-left-radius:10px;
+    border-bottom-right-radius:10px;
+    
+}
+header ul li .top-li-word1:hover,
+header ul li .top-li-word:hover{
+    background-color: #fff;
+    color: #0C8F66;
+}
+
+header .top-number{
+    width: 234px;
+    height: 79px;
+    border: 2px solid rgba(255, 255, 255, 0.382);
+    /* background-color: red; */
+    margin: 50px auto;
+    color: #ececec;
+    padding: 5px 5px 13px 0;
+    /* display: flex; */
+}
+header .top-number img{
+    width: 27px;
+    margin: 25px 0px 0px 15px;
+    vertical-align: middle;
+    /* background-color: #fff; */
+    margin-top: -3px;
+}
+
+header .top-number .num-phone{
+    display: inline-block;
+    font-size: 22px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+    margin-top: 3px;
+    margin-left: 15px;
+    /* background-color: #fff; */
+}
+
+header .top-logos{
+    width: 242px;
+    /* height: 176px; */
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: -30px;
+}
+header .top-logos>div:hover{
+    opacity: .8;
+}
+header .top-logos .vx-photo{
+    position: relative;
+}
+header .top-logos .vx-photo .three2{
+    position: absolute;
+    display: none;
+}
+header .top-logos .vx-photo .three2::before{
+    content: "";
+    position: absolute;
+    border-left: 10px solid #FFF;
+    border-right: transparent;
+    border-bottom: transparent;
+    border-top: 10px solid transparent;
+    transform: rotate(135deg);
+    top: -5px;
+    left: 5px;
+}
+header .top-logos .vx-photo:hover > .three2{display: block;}
+/* header .top-logos .vx-photo,.top-logo-photo{
+    height: 32px;
+    width: 32px;
+    float: left;
+    padding: 4px;
+}
+header .three2{
+    height: 0px;
+    width: 0px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #FFFFFF;
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    display: none;
+} */
+/* header .erweima{
+    height: 100px;
+    width: 100px;
+}
+header .ma{
+    padding-top: 10px;
+    display: none;
+}
+header .top-logos div:hover {
+    transform: scale(1.09,1.09);
+}
+header .vx-photo:hover~.ma {
+    display: block;
+}
+header .vx-photo:hover~.three2 {
+    display: block;
+}
+header ul .top-li-word:hover .top-li{
+    display: block;
+}  
+header ul .top-li-word:hover{
+    color: #0C8F66;
+}
+header .lunbo-bai:hover {
+    transform: scale(1.05,1.05);
+    background-color: #0C8F66;
+} */

@@ -1,0 +1,173 @@
+/* 清除样式 合并时可删除 */
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+main .main-Plate-core{
+    margin: 0 auto;
+    width: 1200px;
+    height: 1730px;
+    position: relative;
+}
+main .main-Plate-core .picture{
+    position:absolute;
+    top: 30px;
+    width: 1200px;
+    height: 1700px;
+}
+main .main-Plate-core .picture .one{
+    float: left;
+    
+}
+main .main-Plate-core .picture .tow{
+    float: right;
+}
+main .tu1{
+    background: url(../img/秦-案例分享1.png);
+    width: 590px;
+    height: 400px;
+    background-color: blue;
+    margin: 0 0 20px 0;
+    position: relative;
+}
+main .tu1:hover .text{
+    display: block;
+}
+main .tu1:hover .xsj{
+    display: none;
+}
+main .tu2{
+    background: url(../img/秦-案例分享2.png);
+    width: 590px;
+    height: 400px;
+    background-color: blue;
+    margin: 0 0 20px 0;
+    position: relative;
+}
+main .tu2:hover .text{
+    display: block;
+}
+main .tu2:hover .xsj{
+    display: none;
+}
+main .tu3{
+    background: url(../img/秦-案例分享3.png);
+    width: 590px;
+    height: 400px;
+    background-color: blue;
+    margin: 0 0 20px 0;
+    position: relative;
+    
+}
+main .tu3:hover .text{
+    display: block;
+}
+main .tu3:hover .xsj{
+    display: none;
+}
+main .tu4{
+    background: url(../img/秦-案例分享4.png);
+    width: 590px;
+    height: 400px;
+    background-color: blue;
+    margin: 0 0 20px 0;
+    position: relative;
+}
+main .tu4:hover .text{
+    display: block;
+}
+main .tu4:hover .xsj{
+    display: none;
+}
+main .tu5{
+    background: url(../img/秦-案例分享5.png);
+    width: 590px;
+    height: 400px;
+    background-color: blue;
+    margin: 0 0 20px 0;
+    position: relative;
+}
+main .tu5:hover .text{
+    display: block;
+}
+main .tu5:hover .xsj{
+    display: none;
+}
+main .tu6{
+    background: url(../img/秦-案例分享6.png);
+    width: 590px;
+    height: 400px;
+    background-color: blue;
+    margin: 0 0 20px 0;
+    position: relative;
+}
+main .tu6:hover .text{
+    display: block;
+}
+main .tu6:hover .xsj{
+    display: none;
+}
+main .tu7{
+    background: url(../img/秦-案例分享7.png);
+    width: 590px;
+    height: 400px;
+    background-color: blue;
+    margin: 0 0 20px 0;
+    position: relative;
+}
+main .tu7:hover .text{
+    display: block;
+}
+main .tu7:hover .xsj{
+    display: none;
+}
+main .tu8{
+    background: url(../img/秦-案例分享8.png);
+    width: 590px;
+    height: 400px;
+    background-color: blue;
+    margin: 0 0 20px 0;
+    position: relative;
+}
+main .tu8:hover .text{
+    display: block;
+}
+main .tu8:hover .xsj{
+    display: none;
+}
+main .text{
+    position:absolute;
+    top: 30px;
+    left: 30px;
+    line-height: 340px;
+    margin: 0 auto;
+    width: 530px;
+    height: 340px;
+    background-color: black;
+    opacity: 0.7;
+    text-align: center;
+    display: none;
+}
+main .text h2{
+    position: relative;
+    top: -13px;
+    left: 13px;
+    margin: 0 0 0 0;
+    font-weight: 400;
+    font-size:27px;
+    color: #ffffff;
+}
+main .xsj{
+    z-index: 100;
+    position: relative;
+    top: 0px;
+    left: 558px;
+         width: 0px;
+         height: 0px;
+         border-top: 16px solid #188E69;/* 透明 */
+         border-right:16px solid #188E69;
+         border-bottom:16px solid transparent;
+         border-left:16px solid transparent;
+         opacity: .6;
+}

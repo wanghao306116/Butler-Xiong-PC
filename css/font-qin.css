@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont.woff2?t=1659503268151') format('woff2'),
+         url('iconfont.woff?t=1659503268151') format('woff'),
+         url('iconfont.ttf?t=1659503268151') format('truetype');
+  }
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 32px;
+    font-style: normal;
+    /* background-color: red; */
+    color: #14906B;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }

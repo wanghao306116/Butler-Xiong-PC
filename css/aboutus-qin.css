@@ -1,0 +1,174 @@
+/* 清除样式 合并时可删除 */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+main .Content-top{
+    width: 100%;
+    height: 650px;
+    background-color: #F3F3F3;
+
+}
+main .Content-top .Plate-core{
+    width: 1200px;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    /* background-color:red; */
+}
+/* 图片 */
+main .Plate-core img{
+    margin: 50px 0 0 0;
+}
+main .Plate-core h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: #333333;
+}
+main .Plate-core .ABOUT{
+    padding: 3px 0 3px 0;
+    margin: 5px auto;
+    width: 160px;
+    border: solid 1px #b6b6b6;
+    font-size: 12px;
+    color: #666666;
+}
+main .Plate-core .brief-introduction{
+    background: url(../img/秦-关于我们1.png);
+    position:absolute;
+    top: 180px;
+    margin: 0 auto;
+    width: 1200px;
+    height: 470px;
+}
+main .brief-introduction .transparent{
+    width: 324px;
+    height: 470px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+/* 图片中文字的上部分 */
+main .transparent-top{
+    width: 260px;
+    position:absolute;
+    top: 40px;
+    left: 30px;
+    color: #ffffff;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 0 0 15px 0;
+}
+main .transparent-top h1{
+    font-weight: 400;
+    font-size: 27px;
+    opacity: .9;
+}
+main .transparent-top span{
+    font-size: 14px;
+    opacity: .9;
+}
+/* 图片中文字的下部分 */
+main .transparent-bottom{
+    position:absolute;
+    top: 130px;
+    left: 30px;
+    text-align: left;
+    font-size: 14px;
+    color: #FFFFFF;
+    width: 265px;
+    height: 200px;
+    line-height: 30px;
+    opacity: .9;
+}
+main .Content-bottom{
+    margin: 0 autp;
+    width: 100%;
+    height: 655px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+main .Plate-core2{
+    width: 1200px;
+    height: 650px;
+    margin: 0 auto;
+    position:relative;
+}
+main .Plate-core2 img{
+    margin: 50px 0 0 0;
+}
+main .Plate-core2 h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: #333333;
+}
+main .TEAM{
+    padding: 3px 0 3px 0;
+    margin: 5px auto;
+    width: 160px;
+    border: solid 1px #b6b6b6;
+    font-size: 12px;
+    color: #666666;
+}
+/* 内容区底部背景图 */
+main .team{
+    background: url(../img/秦-关于我们2.png);
+    width: 1200px;
+    height: 467px;
+    background-position: -17px 10px;
+    position: relative;
+    overflow: hidden;
+    margin: -12px 0 0 0;
+}
+main .team .gold{
+    position:absolute;
+    top: 467px;
+    width: 1200px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #FFFFFF;
+    padding: 12px 0 12px 0;
+    transition: all 0.3s;
+    margin-left:1px;
+}
+main .team .gold h2{
+    font-size: 25px;
+    color: #FFFFFF;
+}
+main .team .gold span{
+    font-size: 14px;
+    color:#F3F3F3
+}
+main .team:hover .gold{
+    transform: translateY(-75px);
+    transition: all 0.3s;
+}
+main .box-jiantou{
+    width:1350px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    position:absolute;
+    left:-75px;
+    top:350px; 
+}
+main .left{
+    background:url(../img/new-jiantou.png) no-repeat;
+    width: 43px;
+    height:43px;
+}
+main .left:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+main .right{
+    background:url(../img/new-jiantou.png) no-repeat;
+    transform:rotate(180deg);
+    width: 45px;
+    height:45px;
+}
+main .right:hover{
+    opacity: .8;
+    cursor: pointer;
+}

@@ -1,0 +1,207 @@
+/* 头部清除样式：组合可删除 */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+main{
+    width: 100%;
+    height: 1035px;
+    background-image: url(../img/秦-首页背景图.png);
+}
+main .main-Plate-core{
+    margin: 0 auto;
+    width: 1200px;
+    height: 930px;
+}
+main .main-Plate-core .Core-content{
+    margin: 0;
+    padding: 0;
+    width: 1200px;
+    height: 930px;
+    padding: 113px 0 0 0;
+}
+main .Core-content .Written-words{
+    width: 500px;
+    height: 500px;
+    float: left;
+}
+main .Written-words .Gradient{  
+    height:53px;
+    border-left:7px solid;
+    /* 渐变 */ 
+    border-image: linear-gradient(#16D69A,#14966D) 1 60; 
+}
+/* 欢迎来到熊管家 */
+main .Gradient h2{
+    position: relative;
+    top: -7px;
+    left: 12px;
+    font-size: 32px;
+    color: #333333;
+}
+main .Gradient span{
+    position: relative;
+    top: -9px;
+    left: 13px;
+    font-size: 14px;
+    color: #787878;
+}
+main .Written-words .text{
+    margin: 57px 0 0 0;
+    line-height: 35px;
+    width: 497px;
+    height: 156px;
+    color: #333333;
+}
+/* 联系我们按钮 */
+main .Written-words .contact-us{
+    margin: 100px 0 0 318px;
+    width: 164px;
+    height: 44px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: inset -6px -9px 9px -3px rgba(11, 2, 14, 0.31),7px 7px 9px -3px rgba(11, 2, 14, 0.31); 
+}
+main .Written-words .contact-us:hover{
+    box-shadow: inset -10px -10px 9px -3px rgba(11, 2, 14, 0.31),7px 7px 9px -3px rgba(11, 2, 14, 0.31); 
+}
+main .Written-words .contact-us a{
+    text-decoration: none;
+}
+main .contact-us b{
+    position: relative;
+    top: 5px;
+    left: 25px;
+    font-size: 24px;
+    color: #14916a;
+}
+main .contact-us .lxwmsj{
+    position: relative;
+    left: 132px;
+    top: -14px;
+    bottom: 0px;
+    right: 0px;
+    width: 0px;
+	height: 0px;
+	border-top: 5px solid transparent;/* 透明 */
+	border-right:8px solid transparent;
+	border-bottom:5px solid transparent;
+	border-left:8px solid #14916a;
+}
+main .Core-content .Figure-1{
+    overflow: hidden;
+    background-color: #16B685;
+    box-shadow: 0px 5px 10px 0px rgb(115 105 105 / 60%);
+    float: right;
+}
+/* 图片大小 */
+main .Figure-1 img{
+    width: 673px;
+    height: 462px;
+    text-align: right;
+}
+main .Core-content .Gradients{  
+    position: relative;
+    top: 75px;
+    /* width:230px; */
+    height:53px;
+    border-left:7px solid;
+    /* 渐变 */ 
+    border-image: linear-gradient(#16D69A,#14966D) 1 60; 
+}
+main .Gradients h2{
+    position: relative;
+    top: -7px;
+    left: 12px;
+    font-size: 32px;
+    color: #333333;
+}
+main .Gradients span{
+    position: relative;
+    top: -9px;
+    left: 13px;
+    font-size: 14px;
+    color: #787878;
+}
+main .Core-content .picture{
+    margin: 105px 0 0 0;
+}
+main .picture li{
+    float: left;
+}
+main .lf-one{
+    margin: 0 0 0 8px;
+}
+/* 内容区底部图片 */
+main .picture .lf-1{
+    background: url(../img/秦-首页房子.png);
+    background-position: -7px -2px;
+    width: 294px;
+    height: 202px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+.lf-1:hover{
+    box-shadow:#adaaab 3px 10px 21px -4px;
+}
+main .picture .lf-2{
+    background: url(../img/秦-房子内部结构2.png);
+    width: 294px;
+    height: 202px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+.lf-2:hover{
+    box-shadow:#adaaab 3px 10px 21px -4px;
+}
+main .picture .lf-3{
+    background: url(../img/秦-首页线路3.png);
+    width: 294px;
+    height: 202px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+.lf-3:hover{
+    box-shadow:#adaaab 3px 10px 21px -4px;
+}
+main .picture .lf-4{
+    background: url(../img/秦-首页客服.png);
+    width: 294px;
+    height: 202px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+.lf-4:hover{
+    box-shadow:#adaaab 3px 10px 21px -4px;
+}
+main .picture .tm{
+    position: absolute;
+    top: 202px;
+    width: 294px;
+    height: 60px;
+    background-color: #069065;
+    opacity: 0.9;
+    transition: all 0.3s;
+}
+main .tm h4{
+    padding: 10px 0 0 10px;
+    color: #ffffff;
+    opacity: 1;
+}
+main .tm span{
+    padding: 0px 0 0 10px;
+    font-size: 12px;
+    color: #FFFFFF;
+    opacity: .8;
+}
+main li:hover .tm{
+    position: relative;
+    transform: translateY(-60px);
+    overflow: visible;
+    transition: all 0.3s;
+}

@@ -1,0 +1,76 @@
+main .w-row{
+    background:#FAFAFA;
+}
+/* 版芯 */
+main .w-content{
+    margin:0px auto 5px;
+    width:1200px;
+    
+}
+main ul{
+    padding:10px 0;
+    background:#fff;
+}
+main ul li{
+    /* background:red; */
+    padding:10px 20px;
+}
+main .conter{
+    display:flex;
+    justify-content:start;
+}
+main .con-right{
+    margin-left:30px;
+    padding:10px 0 10px 0;
+    border-bottom: rgb(17, 17, 17 , .2) solid 1px;
+}
+main .con-right .right-title a{
+    font-size:18px;
+    color:#333;
+}
+main .con-right .right-title a:hover{
+    color:#14916a;
+    text-decoration:underline;
+}
+main .conter .w-content{
+    width:100%;
+   
+}
+main .w-cont{
+    margin:20px 0 20px 0;
+    font-size:14px;
+    color:#999;
+    /* background:red; */
+}
+main .w-cont a{
+    color:#999;
+}
+main img{
+    width:233px;
+    height:150px;
+}
+main .foot{
+    display:flex;
+}
+main .foot .foot-left a{
+    color:#999;
+    font-size:12px;
+    line-height:20px;
+}
+main .foot .foot-right a{
+    font-size:12px;
+    color: #14916a;
+    margin-left:15px;
+    line-height:20px;
+
+}
+main .foot .foot-right a:hover{
+    text-decoration:underline;
+}
+main li:hover{
+    /* box-shadow:0 0 5px #14916a; */
+    background:rgba(20,145,106,.03)
+}
+main ul li{
+    cursor:pointer;
+}

@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+/* 
+    bgc:#F3F3F3;
+    前景色:#168E6A;
+*/
+footer .w-row {
+    background-color:#F3F3F3;
+    border-top: 1px solid #E1E1E1;
+}
+footer .w-row .w-center{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 51px 0 50px 0;
+}
+footer .w-center .footer-title{
+    width: 447px;
+    height: 142px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+/* ?logo部分 */
+footer .footer-title .footer-logo{
+    height: 56px;
+    cursor: pointer;
+    background: url(../img/fotter-logo.png) no-repeat center center;
+}
+footer .footer-title .footer-phone{
+    width: 447px;
+	height: 68px;
+    border: 2px solid rgba(154, 154, 154, 0.4);
+    margin-top: 18px;
+    padding: 18px 0;
+}
+footer .w-row .footer-phone img{
+    vertical-align: top;
+    margin:0px 0px 0px 20px;
+}
+footer .footer-phone span{
+	font-family: ArialMT;
+	font-size: 22px;
+	color: #14916a;
+    position: relative;
+    margin:2px 10px 0px 10px;
+    white-space:1px;
+}
+footer .footer-phone span::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-color: #F3F3F3;
+    position: absolute;
+    top: -6px;
+    left: -100px;
+}
+footer .footer-phone span::after{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background-color: #F3F3F3;
+    position: absolute;
+    top: -6px;
+    left: 350px;
+}
+/* ! 下部分 */
+/* !第一块 */
+footer .w-center .footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-content .contact{
+    width: 298px;
+}
+/* ! 这个标题样式三个版块公用 */
+footer .footer-content .content-title{
+    margin: 0 0 26px 0;
+	color: #000000;
+}
+footer .contact ul li .img{
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    vertical-align: middle;
+}
+footer .contact ul li span{
+    cursor: pointer;
+    display: inline-block;
+	font-size: 12px;
+	color: #555555;
+}
+footer .contact ul li span:hover{
+    color: #14916a;
+}
+footer .contact ul li:nth-child(1) .img{
+    background: url(../img/footer-home.png) no-repeat center center;
+}
+footer .contact ul li:nth-child(2) .img{
+    background: url(../img/footer-address.png) no-repeat center center; 
+} 
+footer .contact ul li:nth-child(3) .img{
+    background: url(../img/footer-phone-bottom.png) no-repeat center center; 
+} 
+footer .contact ul li:nth-child(4) .img{
+    background: url(../img/footer-email.png) no-repeat center center;
+}
+
+/* !第二块 */
+footer .footer-content .fast-nav{
+    width: 393px;
+}
+footer .footer-content .fast-nav ul li{
+    display: inline-block;
+	font-size: 12px;
+	color: #555555;
+}
+footer .footer-content .fast-nav ul li a{
+	padding:0 5.5px;
+	color: #555555;
+    text-decoration: none;
+}
+footer .fast-nav ul li a:hover{
+    text-decoration: underline;
+    color: #14916a;
+}
+footer .fast-nav ul li:nth-child(1) a{
+    padding-left: 0;
+}
+footer .fast-nav ul li:nth-child(6) a{
+    padding-right: 0;
+}
+footer .fast-nav .self-img{
+    width: 223px;
+	height: 31px;
+    background: url(../img/footer-您身边的装修管家.png);
+    margin: 25px auto;
+}
+/* ! 第三块 */
+footer .footer-content .quick-entry{
+    width: 230px;
+}
+footer .footer-content .quick-entry ul{
+    display: flex;
+    justify-content: space-between;
+}
+footer .quick-entry ul li{
+    display: inline-block;
+    position: relative;
+}
+footer .quick-entry ul li .li-img{
+    width: 30px;
+    height: 25px;
+}
+footer .quick-entry ul li .li-img:hover{
+    opacity: .8;
+}
+footer .quick-entry ul li:nth-child(1) .li-img{
+    background: url(../img/footer-微信.png) no-repeat;
+}
+/* 二维码 */
+footer .quick-entry ul li:nth-child(1) .to-code{
+    width: 180px;
+    height: 180px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+footer .quick-entry ul li:nth-child(1) .to-code::before{
+    content: '';
+    border-left: 10px solid #fff;
+    border-top: 10px solid transparent;
+    position: absolute;
+    top: 5px;
+    left: -5px;
+    transform: rotate(45deg);
+}
+footer .quick-entry ul li:nth-child(1) .to-code img{
+    width: 150px;
+}
+footer .quick-entry ul li:nth-child(1):hover .to-code{
+   display: flex;
+   z-index: 99;
+}
+/*! 图标 */
+footer .quick-entry ul li:nth-child(2) .li-img{
+    background: url(../img/footer-微博.png) no-repeat;
+}
+footer .quick-entry ul li:nth-child(3) .li-img{
+    background: url(../img/footer-生活－大众点评.png) no-repeat;
+}
+footer .quick-entry ul li:nth-child(4) .li-img{
+    background: url(../img/footer-音乐.png) no-repeat;
+}
+footer .quick-entry ul li:nth-child(5) .li-img{
+    background: url(../img/footer-齐家\ 拷贝.png) no-repeat;
+}
+footer .quick-entry ul li:nth-child(6) .li-img{
+    background: url(../img/footer-土巴兔\ 拷贝.png) no-repeat;
+}
+/*! 图标下的文字 */
+footer .quick-entry a .entry-content{
+    margin-top: 22px;
+	font-size: 14px;
+	color: #14916a; 
+    cursor:pointer;
+}
+footer .quick-entry a{
+    text-decoration: none;
+}
+footer a .entry-content:hover{
+    text-decoration: underline;
+}
+/* !备案信息 */
+footer .copyright{
+    border-top: 1px solid #5555554e;
+    display: flex;
+    justify-content:center;
+    padding: 18px 0 17px 0;
+}
+footer .copyright ul{
+    display: flex;
+}
+footer .copyright ul li{
+    margin-right: 10px;
+	font-size: 12px;
+	color: #555555;
+}
+footer .copyright ul li:nth-child(1){
+    margin-right: 5px;
+}
+footer .copyright ul li:nth-child(3){
+    margin-right: 5px;
+}
